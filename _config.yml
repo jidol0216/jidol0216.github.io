@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "Republic of Korea"
 site_theme               : "default"
-title                    : "Jidal0216 / No Pain, No Gain."
+title                    : "Jidol0216 / No Pain, No Gain."
 title_separator          : "-"
 name                     : &name "Jidal0216"
 description              : &description "personal description"
-url                      : "https://jidal0216.github.io"
+url                      : "https://jidol0216.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
