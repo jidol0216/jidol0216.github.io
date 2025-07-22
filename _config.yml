@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "Republic of Korea"
 site_theme               : "default"
-title                    : "Jidal0216 / AI-assisted, code-owned."
+title                    : "Jidal0216 / No Pain, No Gain."
 title_separator          : "-"
 name                     : &name "Jidal0216"
 description              : &description "personal description"
@@ -23,10 +23,10 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Jidol"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Pohang"
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
