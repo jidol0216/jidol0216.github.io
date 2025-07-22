@@ -7,11 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "Republic of Korea"
 site_theme               : "default"
 title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jidal0216"
 description              : &description "personal description"
 url                      : "https://jidal0216.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
