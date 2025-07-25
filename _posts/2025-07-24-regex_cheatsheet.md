@@ -1,6 +1,6 @@
 ---
 title: "파이썬 정규표현식"
-date: 2025-07-25
+date: 2025-07-24
 categories: [Python]
 tags: [Regex, re, 정규표현식, Python, 문자열 처리]
 ---
