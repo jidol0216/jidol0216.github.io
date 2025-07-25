@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Jidol"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "department of computer science"
   location         : "Pohang"
   employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "jeostae0216@gmail.com" 
 
   # Academic websites
   academia         : # URL
