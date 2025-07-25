@@ -1,11 +1,11 @@
 ---
-title: "파이썬 이터레이터와 제너레이터 완전 정리"
+title: "파이썬 이터레이터와 제너레이터"
 date: 2025-07-25
 categories: [Python]
 tags: [Iterator, Generator, Python, Iterable, Lazy Evaluation]
 ---
 
-# 🌀 파이썬 이터레이터와 제너레이터 완전 정리
+# 🌀 파이썬 이터레이터와 제너레이터
 
 파이썬에서 **이터러블(Iterable)**, **이터레이터(Iterator)**, **제너레이터(Generator)**는 반복문과 데이터를 효율적으로 다루기 위한 핵심 개념.
 
