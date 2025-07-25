@@ -126,4 +126,4 @@ re.search(r"hello", "HELLO", re.I)
 ---
 
 ✍️ 작성자: 지돌멩이  
-📎 GitHub: [@yourgithub](https://github.com/yourgithub)
+📎 GitHub: [@jidol0216](https://github.com/jidol0216)
