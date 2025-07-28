@@ -1,4 +1,9 @@
-
+---
+title: "파이썬 자료형"
+date: 2025-07-28
+categories: [Python]
+tags: [List, Tuple, Dictionary, Set, 자료형]
+---
 # 📌 Python 주요 자료형: List, Tuple, Dictionary, Set
 
 ## 1. 📋 List (리스트)
