@@ -12,10 +12,10 @@ site_theme               : "default"
 title                    : "Jidol0216 / No Pain, No Gain."
 title_separator          : "-"
 name                     : &name "Jidal0216"
-description              : &description "personal description"
+description              : &description "Make the impossible possible"
 url                      : "https://jidol0216.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "jidol0216/jidol0216.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
