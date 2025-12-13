@@ -13,7 +13,7 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item">
+            <li class="masthead__menu-item{% if link.children %} has-children{% endif %}">
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               {% if link.children %}
                 <ul class="masthead__submenu">
