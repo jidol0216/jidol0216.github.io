@@ -1,0 +1,64 @@
+/* Arduino-specific styles: grid cards and hero */
+
+.page__hero {
+  margin: 2rem 0 1rem;
+  padding: 2rem;
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0));
+  border-radius: $border-radius;
+  border: 1px solid var(--global-border-color);
+
+  .page__hero-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.8rem;
+      font-family: $sans-serif-narrow;
+      letter-spacing: -0.5px;
+    }
+
+    .lead {
+      color: var(--global-text-color-light);
+      margin-top: 0.4rem;
+    }
+  }
+}
+
+.collection-arduino {
+  .grid__item {
+    .archive__item {
+      background: var(--global-card-bg, #ffffff);
+      border-radius: $border-radius;
+      padding: 0.75rem;
+      border: 1px solid var(--global-border-color);
+      box-shadow: 0 2px 6px rgba(#000, 0.03);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .archive__item-teaser img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: $border-radius  $border-radius 0 0;
+    }
+
+    .archive__item-title {
+      margin: 0.5rem 0 0.25rem;
+      font-size: $type-size-5;
+      text-transform: none;
+    }
+
+    .archive__item-excerpt {
+      display: block;
+      color: var(--global-text-color-light);
+      margin-top: 0.25rem;
+    }
+
+    .archive__item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(#000, 0.08);
+    }
+  }
+}

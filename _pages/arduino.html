@@ -5,6 +5,15 @@ permalink: /arduino/
 author_profile: true
 ---
 
-{% for post in site.arduino reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<div class="page__hero">
+  <div class="page__hero-inner">
+    <h1>Arduino 공부</h1>
+    <p class="lead">ESP32와 아두이노 관련 프로젝트들을 모아 둔 페이지입니다. 간단한 튜토리얼과 프로젝트 요약을 카드 형식으로 제공합니다.</p>
+  </div>
+</div>
+
+<div class="grid__wrapper">
+  {% for post in site.arduino reversed %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
