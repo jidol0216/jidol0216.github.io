@@ -2,7 +2,7 @@
 title: "ESP32 기반 Wi-Fi 단독 제어 시스템 개발 경험"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-esp32-wifi-standalone
+permalink: /talks/2025-esp32-wifi-standalone/
 venue: "개인 로보틱스·임베디드 시스템 프로젝트"
 date: 2025-09-13
 location: "Seoul, South Korea"
