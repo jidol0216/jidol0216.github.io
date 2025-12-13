@@ -13,12 +13,8 @@ main:
 
   - title: "Talks"
     url: /talks/    
-    children:
-      - title: "ESP32 기반 Wi-Fi 단독 제어 시스템"
-        url: /talks/2025-esp32-wifi-standalone/
 
-  - title: "ESP32: Wi-Fi 단독 제어"
-    url: /talks/2025-esp32-wifi-standalone/
+  # ESP32 nav entry removed; it's now a child under Arduino to avoid duplication
 
   - title: "Arduino"
     url: /arduino/
