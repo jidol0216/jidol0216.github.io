@@ -1,5 +1,6 @@
 ---
 title: "ESP32 기반 Wi-Fi 단독 제어 시스템 개발 경험"
+short_title: "Arduino"
 collection: arduino
 type: "Project"
 permalink: /arduino/2025-esp32-wifi-standalone/
