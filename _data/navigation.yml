@@ -20,6 +20,9 @@ main:
   - title: "ESP32: Wi-Fi 단독 제어"
     url: /talks/2025-esp32-wifi-standalone/
 
+  - title: "Arduino"
+    url: /arduino/
+
   - title: "Teaching"
     url: /teaching/    
     

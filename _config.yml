@@ -109,6 +109,9 @@ collections:
   talks:
     output: true
     permalink: /talks/:path/
+  arduino:
+    output: true
+    permalink: /arduino/:path/
 
 # ===============================
 # Defaults
