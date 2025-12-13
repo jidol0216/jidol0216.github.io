@@ -13,6 +13,9 @@ main:
 
   - title: "Talks"
     url: /talks/    
+    children:
+      - title: "ESP32 기반 Wi-Fi 단독 제어 시스템"
+        url: /talks/2025-esp32-wifi-standalone/
 
   - title: "Teaching"
     url: /teaching/    
