@@ -5,13 +5,7 @@ collection: arduino
 type: "Project"
 permalink: /arduino/2025-esp32-wifi-standalone/
 venue: "개인 로보틱스·임베디드 시스템 프로젝트"
-header:
-  image: /images/arduino-hero.jpg
-  teaser: /images/arduino-teaser.jpg
-  overlay_color: rgba(14, 89, 106, 0.85)
-  caption: "ESP32 단독 Wi‑Fi 제어: 브라우저로 제어 가능한 시스템"
-  cta_url: /arduino/
-  cta_label: "전체 보기"
+teaser: /images/arduino-teaser.jpg
 excerpt: "ESP32 기반 단독 Wi‑Fi 제어 시스템의 설계와 구현, 전원과 네트워크 안정성 문제 해결과 실시간 제어 개선 사례를 정리한 글입니다."
 read_time: true
 share: true
