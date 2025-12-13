@@ -106,3 +106,20 @@
     margin-left: 1.25rem;
   }
 }
+
+.btn-home {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.back-home {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.back-home-single {
+  margin: 0.5rem 0 0 0;
+  font-size: $type-size-6;
+
+  a { color: var(--global-text-color-light); text-decoration: none; }
+}

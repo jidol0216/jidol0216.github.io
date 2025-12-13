@@ -31,6 +31,9 @@ layout: default
           {% elsif page.title %}
             <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           {% endif %}
+            {% if page.collection == "arduino" %}
+              <p class="back-home-single"><a href="{{ base_path }}/">↩ 홈으로</a></p>
+            {% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
