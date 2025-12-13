@@ -62,3 +62,47 @@
     }
   }
 }
+
+/* Single post hero overlay styles */
+.page__hero--overlay {
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding: 5rem 1rem;
+  border-radius: $border-radius;
+  margin-bottom: 1.5rem;
+
+  .page__title {
+    margin-bottom: 0.5rem;
+    font-size: 2.25rem;
+    color: #fff;
+  }
+
+  .page__lead {
+    color: rgba(255,255,255,0.9);
+    font-size: $type-size-3;
+  }
+}
+
+/* Content cosmetics */
+.page__content {
+  blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 4px solid var(--global-base-color);
+    background: rgba(0,0,0,0.02);
+    color: var(--global-text-color);
+  }
+
+  pre, code {
+    background: #0f1720;
+    color: #f8f8f2;
+    padding: 0.75rem;
+    border-radius: $border-radius;
+    overflow: auto;
+  }
+
+  ul, ol {
+    margin-left: 1.25rem;
+  }
+}
