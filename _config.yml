@@ -140,6 +140,15 @@ defaults:
       layout: single
       author_profile: true
 
+  - scope:
+      path: ""
+      type: arduino
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+
 # ===============================
 # URL & Time
 # ===============================
