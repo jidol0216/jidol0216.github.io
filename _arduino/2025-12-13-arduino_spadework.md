@@ -9,7 +9,7 @@ teaser: 500x300.png
 excerpt: "ESP32 기반 단독 Wi‑Fi 제어 시스템의 설계와 구현, 전원과 네트워크 안정성 문제 해결과 실시간 제어 개선 사례를 정리한 글입니다."
 read_time: true
 share: true
-date: 2025-09-13
+date: 2025-12-13
 location: "Seoul, South Korea"
 ---
 
