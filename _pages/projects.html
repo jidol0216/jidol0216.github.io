@@ -14,7 +14,8 @@ author_profile: true
 
 <div class="collection-portfolio">
   <div class="grid__wrapper">
-  {% for post in site.portfolio reversed %}
+  {% assign projects = site.portfolio | concat: site.project %}
+  {% for post in projects reversed %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
   </div>
