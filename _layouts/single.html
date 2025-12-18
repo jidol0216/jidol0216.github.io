@@ -34,6 +34,9 @@ layout: default
             {% if page.collection == "arduino" %}
 
             {% endif %}
+              {% if page.collection == "arduino" or page.collection == "project" %}
+                <p class="back-home-single"><a href="{{ base_path }}/">↩ 홈으로</a></p>
+              {% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}

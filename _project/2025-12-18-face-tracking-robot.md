@@ -1,8 +1,11 @@
 ---
 title: "Face Tracking Robot Web Control System Architecture"
+short_title: "Face Tracking"
 date: 2025-12-18
 collection: project
-permalink: /project/face-tracking-robot/
+permalink: /projects/face-tracking-robot/
+teaser: 500x300.png
+excerpt: "ROS2 기반 얼굴 추적 로봇의 전체 아키텍처 문서 (시스템·네트워크·파이프라인 요약)"
 ---
 
 # 🤖 Face Tracking Robot Web Control System Architecture
