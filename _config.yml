@@ -152,6 +152,15 @@ defaults:
       read_time: true
       share: true
 
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+
 # ===============================
 # URL & Time
 # ===============================
