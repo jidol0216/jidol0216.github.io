@@ -22,6 +22,12 @@ main:
       - title: "ESP32"
         url: /arduino/2025-esp32-wifi-standalone/
 
+  - title: "Project"
+    url: /projects/
+    children:
+      - title: "Face Tracking Robot"
+        url: /projects/face-tracking-robot/
+
   - title: "Teaching"
     url: /teaching/    
     
