@@ -112,6 +112,9 @@ collections:
   arduino:
     output: true
     permalink: /arduino/:path/
+  project:
+    output: true
+    permalink: /project/:path/
 
 # ===============================
 # Defaults
