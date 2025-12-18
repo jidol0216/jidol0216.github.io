@@ -5,17 +5,15 @@ permalink: /projects/
 author_profile: true
 ---
 
-<div class="page__hero">
+  <div class="page__hero">
   <div class="page__hero-inner">
-    <p class="back-home"><a href="{{ base_path }}/" class="btn btn--light-outline btn-home">홈으로</a></p>
     <p class="lead">Selected engineering projects and system designs. ROS2-based robotics, web control, vision and system-level integrations.</p>
   </div>
 </div>
 
-<div class="collection-portfolio">
+<div class="collection-project">
   <div class="grid__wrapper">
-  {% assign projects = site.portfolio | concat: site.project %}
-  {% for post in projects reversed %}
+  {% for post in site.project reversed %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
   </div>
