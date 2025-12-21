@@ -115,6 +115,9 @@ collections:
   project:
     output: true
     permalink: /projects/:path/
+  study:
+    output: true
+    permalink: /study/:path/
 
 # ===============================
 # Defaults
