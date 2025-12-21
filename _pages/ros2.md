@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Study Guides"
-permalink: /study/
+title: "ROS2"
+permalink: /ros2/
 author_profile: true
 ---
 
@@ -11,9 +11,9 @@ author_profile: true
   </div>
 </div>
 
-<div class="collection-study">
+<div class="collection-ros2">
   <div class="grid__wrapper">
-  {% for post in site.study reversed %}
+  {% for post in site.ros2 reversed %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
   </div>

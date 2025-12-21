@@ -1,8 +1,8 @@
 ---
 title: "Intel Arc GPU 설정 가이드"
-collection: study
+collection: notebook_setup
 type: "Guide"
-permalink: /study/gpu-setup-guide
+permalink: /notebook-setup/gpu-setup-guide
 date: 2025-12-21
 excerpt: "Ubuntu에서 Intel Arc Graphics 설정 및 최적화. Mesa 드라이버 설치, OpenGL 설정, 성능 모니터링."
 ---

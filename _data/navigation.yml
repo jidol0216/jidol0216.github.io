@@ -34,18 +34,22 @@ main:
   - title: "Python"
     url: /year-archive/
 
-  - title: "Study"
-    url: /study/
+  - title: "ROS2"
+    url: /ros2/
     children:
       - title: "ROS2 QoS 가이드"
-        url: /study/ros2-qos-guide
+        url: /ros2/ros2-qos-guide
       - title: "ROS2 면접 대비"
-        url: /study/ros2-interview-guide
+        url: /ros2/ros2-interview-guide
       - title: "두산 ROS2 가이드"
-        url: /study/doosan-ros2-guide
+        url: /ros2/doosan-ros2-guide
       - title: "두산 Docker 사용법"
-        url: /study/doosan-docker-usage
+        url: /ros2/doosan-docker-usage
       - title: "Docker 초보자 가이드"
-        url: /study/docker-guide
+        url: /ros2/docker-guide
+
+  - title: "노트북 설정"
+    url: /notebook-setup/
+    children:
       - title: "GPU 설정 가이드"
-        url: /study/gpu-setup-guide
+        url: /notebook-setup/gpu-setup-guide

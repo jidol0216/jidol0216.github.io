@@ -1,8 +1,8 @@
 ---
 title: "ROS2 면접 대비 가이드"
-collection: study
+collection: ros2
 type: "Guide"
-permalink: /study/ros2-interview-guide
+permalink: /ros2/ros2-interview-guide
 date: 2025-12-21
 excerpt: "ROS2 기술 면접 완벽 대비. 25개 핵심 질문과 답변, 프로젝트 경험 어필 방법, STAR 기법 활용법."
 ---

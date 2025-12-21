@@ -1,8 +1,8 @@
 ---
 title: "ROS2 QoS 완벽 가이드"
-collection: study
+collection: ros2
 type: "Guide"
-permalink: /study/ros2-qos-guide
+permalink: /ros2/ros2-qos-guide
 date: 2025-12-21
 excerpt: "ROS2의 핵심 개념 QoS를 완벽하게 이해하기. Reliability, Durability, History 등 6가지 정책 상세 설명과 실전 예제."
 ---

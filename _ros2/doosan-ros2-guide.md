@@ -1,8 +1,8 @@
 ---
 title: "두산 로봇 ROS2 패키지 가이드"
-collection: study
+collection: ros2
 type: "Guide"
-permalink: /study/doosan-ros2-guide
+permalink: /ros2/doosan-ros2-guide
 date: 2025-12-21
 excerpt: "Doosan Robot ROS2 패키지 전체 분석. 설치부터 제어 API, 예제 코드까지 실전 활용 가이드."
 ---

@@ -115,9 +115,6 @@ collections:
   project:
     output: true
     permalink: /projects/:path/
-  study:
-    output: true
-    permalink: /study/:path/
 
 # ===============================
 # Defaults
@@ -158,24 +155,6 @@ defaults:
   - scope:
       path: ""
       type: project
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-
-  - scope:
-      path: ""
-      type: ros2
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-
-  - scope:
-      path: ""
-      type: notebook_setup
     values:
       layout: single
       author_profile: true

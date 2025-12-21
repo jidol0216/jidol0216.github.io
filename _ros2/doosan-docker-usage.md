@@ -1,8 +1,8 @@
 ---
 title: "두산 로봇 Docker 사용 가이드"
-collection: study
+collection: ros2
 type: "Guide"
-permalink: /study/doosan-docker-usage
+permalink: /ros2/doosan-docker-usage
 date: 2025-12-21
 excerpt: "Doosan Robot Emulator Docker 환경 구축 및 실행 가이드. Virtual Mode 테스트와 RViz2 연동까지."
 ---

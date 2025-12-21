@@ -1,8 +1,8 @@
 ---
 title: "Docker 초보자 완벽 가이드"
-collection: study
+collection: ros2
 type: "Guide"
-permalink: /study/docker-guide
+permalink: /ros2/docker-guide
 date: 2025-12-21
 excerpt: "Docker 입문부터 실전까지. 컨테이너 개념, 설치, 주요 명령어, 이미지 빌드, Docker Compose 활용법."
 ---
