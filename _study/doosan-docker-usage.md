@@ -1,9 +1,10 @@
 ---
-title: "두산 로봇 Docker 사용법"
+title: "두산 로봇 Docker 사용 가이드"
 collection: study
 type: "Guide"
 permalink: /study/doosan-docker-usage
 date: 2025-12-21
+excerpt: "Doosan Robot Emulator Docker 환경 구축 및 실행 가이드. Virtual Mode 테스트와 RViz2 연동까지."
 ---
 
 # 두산 로봇 도커 사용법 가이드

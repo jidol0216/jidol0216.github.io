@@ -164,6 +164,15 @@ defaults:
       read_time: true
       share: true
 
+  - scope:
+      path: ""
+      type: study
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+
 # ===============================
 # URL & Time
 # ===============================

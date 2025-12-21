@@ -4,6 +4,7 @@ collection: study
 type: "Guide"
 permalink: /study/ros2-qos-guide
 date: 2025-12-21
+excerpt: "ROS2의 핵심 개념 QoS를 완벽하게 이해하기. Reliability, Durability, History 등 6가지 정책 상세 설명과 실전 예제."
 ---
 
 # ROS2 QoS (Quality of Service) 완벽 가이드

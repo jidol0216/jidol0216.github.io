@@ -4,6 +4,7 @@ collection: study
 type: "Guide"
 permalink: /study/gpu-setup-guide
 date: 2025-12-21
+excerpt: "Ubuntu에서 Intel Arc Graphics 설정 및 최적화. Mesa 드라이버 설치, OpenGL 설정, 성능 모니터링."
 ---
 
 # GPU 설정 및 관리 가이드

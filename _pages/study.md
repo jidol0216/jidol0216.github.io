@@ -5,34 +5,16 @@ permalink: /study/
 author_profile: true
 ---
 
-## ROS2 & 로봇 공학 학습 가이드
+<div class="page__hero">
+  <div class="page__hero-inner">
+    <p class="lead">ROS2 & Doosan Robot 학습 과정에서 정리한 실전 가이드. QoS 개념부터 Docker 환경 구축, 면접 대비까지.</p>
+  </div>
+</div>
 
-두산 로봇과 ROS2를 공부하면서 정리한 가이드 모음입니다.
-
-### 🤖 ROS2 핵심 개념
-
-{% for post in site.study %}
-  {% if post.title contains "ROS2" %}
-  {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-### 🐳 Docker & 환경 설정
-
-{% for post in site.study %}
-  {% if post.title contains "Docker" or post.title contains "GPU" %}
-  {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-### 🦾 두산 로봇
-
-{% for post in site.study %}
-  {% if post.title contains "두산" %}
-  {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
----
-
-*학습하면서 지속적으로 업데이트 중입니다.*
+<div class="collection-study">
+  <div class="grid__wrapper">
+  {% for post in site.study reversed %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+  </div>
+</div>
