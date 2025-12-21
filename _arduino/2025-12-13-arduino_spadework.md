@@ -1,16 +1,10 @@
 ---
 title: "ESP32 기반 Wi-Fi 단독 제어 시스템 개발 경험"
-short_title: "Arduino"
 collection: arduino
 type: "Project"
 permalink: /arduino/2025-esp32-wifi-standalone/
-venue: "개인 로보틱스·임베디드 시스템 프로젝트"
-teaser: 500x300.png
-excerpt: "ESP32 기반 단독 Wi‑Fi 제어 시스템의 설계와 구현, 전원과 네트워크 안정성 문제 해결과 실시간 제어 개선 사례를 정리한 글입니다."
-read_time: true
-share: true
 date: 2025-12-13
-location: "Seoul, South Korea"
+excerpt: "ESP32 기반 단독 Wi‑Fi 제어 시스템의 설계와 구현, 전원과 네트워크 안정성 문제 해결과 실시간 제어 개선 사례를 정리한 글입니다."
 ---
 
 ## 개요

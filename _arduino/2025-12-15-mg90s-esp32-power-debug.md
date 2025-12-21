@@ -1,13 +1,10 @@
 ---
-title: "📓 2025-12-15 서보(MG90S) + ESP32 전원 삽질 복기"
-short_title: "MG90S 전원 복기"
+title: "MG90S 서보 + ESP32 전원 문제 해결"
 collection: arduino
-type: "Log"
+type: "Troubleshooting"
 permalink: /arduino/2025-12-15-mg90s-esp32-power-debug/
 date: 2025-12-15
 excerpt: "MG90S 서보와 ESP32 전원 문제(스톨, 과열, 전압강하) 원인 분석과 재발 방지 가이드"
-read_time: true
-share: true
 ---
 
 # 📓 서보(MG90S) + ESP32 전원 삽질 복기 기록
