@@ -115,9 +115,12 @@ collections:
   project:
     output: true
     permalink: /projects/:path/
-  study:
+  ros2:
     output: true
-    permalink: /study/:path/
+    permalink: /ros2/:path/
+  notebook_setup:
+    output: true
+    permalink: /notebook-setup/:path/
 
 # ===============================
 # Defaults
