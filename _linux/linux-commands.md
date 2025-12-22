@@ -14,7 +14,7 @@ excerpt: "로봇 개발과 ROS2 환경 구축에 필요한 리눅스 명령어 �
 ## 📡 네트워크 명령어
 
 ### IP 주소 관리
-```text
+```bash
 # IP 주소 확인
 ip addr show
 ip a
@@ -31,7 +31,7 @@ sudo ip link set enxc84d442343d5 down
 ```
 
 ### 네트워크 연결 테스트
-```text
+```bash
 # 핑 테스트
 ping 192.168.1.100
 ping -c 4 192.168.1.100  # 4번만 전송
@@ -46,7 +46,7 @@ dig google.com
 ```
 
 ### ifconfig (구형 명령어)
-```text
+```bash
 # 네트워크 인터페이스 확인
 ifconfig
 ifconfig enxc84d442343d5
@@ -60,7 +60,7 @@ sudo ifconfig enxc84d442343d5 192.168.1.50 netmask 255.255.255.0
 ## 🤖 ROS2 명령어
 
 ### ROS2 기본
-```text
+```bash
 # ROS2 도메인 설정
 export ROS_DOMAIN_ID=64
 echo $ROS_DOMAIN_ID
@@ -73,7 +73,7 @@ ros2 launch dsr_launcher2 single_robot_rviz.launch.py &
 ```
 
 ### Topic 관련
-```text
+```bash
 # 토픽 목록 확인
 ros2 topic list
 
@@ -91,7 +91,7 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0}}"
 ```
 
 ### Service 관련
-```text
+```bash
 # 서비스 목록
 ros2 service list
 
@@ -106,7 +106,7 @@ ros2 interface show dsr_msgs2/srv/MoveJoint
 ```
 
 ### Node 관련
-```text
+```bash
 # 실행 중인 노드 확인
 ros2 node list
 
@@ -118,7 +118,7 @@ ros2 node info /dsr01_controller --verbose
 ```
 
 ### 패키지 관리
-```text
+```bash
 # 패키지 찾기
 ros2 pkg list
 ros2 pkg list | grep dsr
@@ -135,7 +135,7 @@ ros2 pkg executables dsr_launcher2
 ## 📁 파일 및 디렉토리 관리
 
 ### 기본 파일 조작
-```text
+```bash
 # 파일 복사
 cp file.txt backup.txt
 cp -r dir1/ dir2/  # 디렉토리 복사
@@ -154,7 +154,7 @@ mkdir -p parent/child/grandchild  # 중간 경로 자동 생성
 ```
 
 ### 파일 내용 확인
-```text
+```bash
 # 파일 전체 내용
 cat file.txt
 
@@ -177,7 +177,7 @@ grep -i "keyword" file.txt  # 대소문자 무시
 ```
 
 ### 디렉토리 탐색
-```text
+```bash
 # 현재 위치
 pwd
 
@@ -195,7 +195,7 @@ tree -L 2  # 깊이 2단계까지
 ```
 
 ### 파일 찾기
-```text
+```bash
 # 파일명으로 찾기
 find . -name "*.py"
 find /path -name "robot_*"
@@ -216,7 +216,7 @@ find . -name "*.pyc" -delete
 ## ⚙️ 환경 변수 및 설정
 
 ### 환경 변수 관리
-```text
+```bash
 # 환경 변수 확인
 echo $PATH
 echo $ROS_DOMAIN_ID
@@ -236,7 +236,7 @@ source ~/.bashrc
 ```
 
 ### 소스 파일 로드
-```text
+```bash
 # ROS2 환경 설정
 source /opt/ros/humble/setup.bash
 
@@ -248,7 +248,7 @@ source ~/.bashrc
 ```
 
 ### Alias 설정
-```text
+```bash
 # 임시 alias 설정
 alias ll='ls -la'
 alias ros2_env='source /opt/ros/humble/setup.bash'
@@ -262,7 +262,7 @@ echo "alias robot_start='ros2 launch dsr_launcher2 single_robot_rviz.launch.py'"
 ## 🔐 권한 및 프로세스 관리
 
 ### 파일 권한
-```text
+```bash
 # 권한 확인
 ls -l file.txt
 
@@ -279,7 +279,7 @@ sudo chown -R user:group directory/
 ```
 
 ### 프로세스 관리
-```text
+```bash
 # 프로세스 목록
 ps aux
 ps aux | grep python
@@ -312,7 +312,7 @@ bg %1  # 작업 1을 백그라운드로
 ## 📦 패키지 관리
 
 ### APT (Ubuntu/Debian)
-```text
+```bash
 # 패키지 업데이트
 sudo apt update
 sudo apt upgrade
@@ -331,7 +331,7 @@ apt show package-name
 ```
 
 ### Python 패키지
-```text
+```bash
 # pip 설치
 pip install package-name
 pip install -r requirements.txt
@@ -349,7 +349,7 @@ pip freeze > requirements.txt
 ## 💾 디스크 및 시스템 정보
 
 ### 디스크 사용량
-```text
+```bash
 # 전체 디스크 사용량
 df -h
 
@@ -362,7 +362,7 @@ du -sh /path/to/directory
 ```
 
 ### 시스템 정보
-```text
+```bash
 # 시스템 정보
 uname -a
 lsb_release -a
@@ -385,7 +385,7 @@ nvidia-smi  # NVIDIA GPU
 ## 🔍 텍스트 처리
 
 ### grep (검색)
-```text
+```bash
 # 기본 검색
 grep "pattern" file.txt
 
@@ -398,7 +398,7 @@ grep -c "pattern" file.txt  # 매칭 라인 수
 ```
 
 ### sed (편집)
-```text
+```bash
 # 문자열 치환
 sed 's/old/new/' file.txt
 sed 's/old/new/g' file.txt  # 모든 매칭 치환
@@ -412,7 +412,7 @@ sed -i 's/old/new/g' file.txt
 ```
 
 ### awk (텍스트 처리)
-```text
+```bash
 # 특정 열 출력
 awk '{print $1}' file.txt
 ps aux | awk '{print $2, $11}'  # PID와 명령어
@@ -429,7 +429,7 @@ awk '{sum += $1} END {print sum}' file.txt
 ## 🔄 압축 및 아카이브
 
 ### tar
-```text
+```bash
 # 압축
 tar -czf archive.tar.gz directory/
 tar -czvf archive.tar.gz file1 file2
@@ -443,7 +443,7 @@ tar -tzf archive.tar.gz
 ```
 
 ### zip/unzip
-```text
+```bash
 # 압축
 zip archive.zip file1 file2
 zip -r archive.zip directory/
@@ -458,7 +458,7 @@ unzip archive.zip -d /destination/
 ## 🌐 원격 접속
 
 ### SSH
-```text
+```bash
 # 원격 접속
 ssh user@hostname
 ssh user@192.168.1.100
@@ -474,7 +474,7 @@ ssh-copy-id user@hostname
 ```
 
 ### SCP (파일 전송)
-```text
+```bash
 # 로컬 → 원격
 scp file.txt user@hostname:/path/
 
@@ -490,7 +490,7 @@ scp -r directory/ user@hostname:/path/
 ## 🛠️ 유용한 팁
 
 ### 명령어 히스토리
-```text
+```bash
 # 히스토리 확인
 history
 
@@ -505,7 +505,7 @@ history
 ```
 
 ### 파이프와 리다이렉션
-```text
+```bash
 # 파이프로 연결
 ps aux | grep python | awk '{print $2}'
 
@@ -519,7 +519,7 @@ command 2>&1 > all.txt  # 표준출력과 에러 모두
 ```
 
 ### 명령어 조합
-```text
+```bash
 # 순차 실행
 command1 ; command2
 
@@ -535,7 +535,7 @@ command1 || command2
 ## 📚 자주 사용하는 명령어 조합
 
 ### ROS2 로봇 시작 절차
-```text
+```bash
 # 1. 환경 변수 설정
 export ROS_DOMAIN_ID=64
 
@@ -550,7 +550,7 @@ python3 robot_move_service.py
 ```
 
 ### 네트워크 문제 해결
-```text
+```bash
 # 1. 인터페이스 확인
 ip addr show
 
@@ -565,7 +565,7 @@ ros2 topic list
 ```
 
 ### 로그 분석
-```text
+```bash
 # 실시간 로그 모니터링
 tail -f ~/.ros/log/latest/ros.log
 
@@ -594,5 +594,3 @@ Tab       : 자동완성
 ```
 
 ---
-
-> 💡 **참고**: 이 명령어들은 Doosan M0609 로봇 제어 실습에서 실제로 사용한 명령어들을 정리한 것입니다.
