@@ -53,3 +53,15 @@ main:
     children:
       - title: "GPU 설정 가이드"
         url: /notebook-setup/gpu-setup-guide
+
+  - title: "Isaac Sim"
+    url: /isaac-sim/
+    children:
+      - title: "Extension 활용"
+        url: /isaac-sim/extension/
+      - title: "USD Graph 저장 방법"
+        url: /isaac-sim/usd-graph/
+      - title: "ActionGraph (Python)"
+        url: /isaac-sim/actiongraph/
+      - title: "Nav2 가이드"
+        url: /isaac-sim/nav2-guide/

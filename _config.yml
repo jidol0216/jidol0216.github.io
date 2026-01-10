@@ -121,6 +121,9 @@ collections:
   notebook_setup:
     output: true
     permalink: /notebook-setup/:path/
+  isaac_sim:
+    output: true
+    permalink: /isaac-sim/:path/
 
 # ===============================
 # Defaults
@@ -179,6 +182,15 @@ defaults:
   - scope:
       path: ""
       type: notebook_setup
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+
+  - scope:
+      path: ""
+      type: isaac_sim
     values:
       layout: single
       author_profile: true
