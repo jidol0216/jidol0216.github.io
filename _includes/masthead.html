@@ -16,16 +16,35 @@
             <li class="masthead__menu-item{% if link.children %} has-children{% endif %}">
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
               {% if link.children %}
-                <ul class="masthead__submenu">
-                  {% for child in link.children %}
-                    {% if child.url contains 'http' %}
-                      {% assign c_domain = '' %}
-                    {% else %}
-                      {% assign c_domain = base_path %}
-                    {% endif %}
-                    <li><a href="{{ c_domain }}{{ child.url }}">{{ child.title }}</a></li>
-                  {% endfor %}
-                </ul>
+                  <ul class="masthead__submenu">
+                    {% for child in link.children %}
+                      {% if child.url contains 'http' %}
+                        {% assign c_domain = '' %}
+                      {% else %}
+                        {% assign c_domain = base_path %}
+                      {% endif %}
+
+                      {%- assign p = site.pages | where: "url", child.url | first -%}
+                      {%- if p == nil -%}
+                        {%- assign p = site.posts | where: "url", child.url | first -%}
+                      {%- endif -%}
+                      {%- if p == nil and site.project -%}
+                        {%- assign p = site.project | where: "url", child.url | first -%}
+                      {%- endif -%}
+
+                      <li class="masthead__submenu-item">
+                        <a href="{{ c_domain }}{{ child.url }}">
+                          <h4 class="submenu__title">{% if p %}{{ p.title }}{% else %}{{ child.title }}{% endif %}</h4>
+                          {% if p and p.excerpt %}
+                            <p class="submenu__excerpt">{{ p.excerpt | strip_html | truncate: 120 }}</p>
+                          {% endif %}
+                          {% if p and p.date %}
+                            <div class="submenu__meta">{{ p.date | date: "%B %e, %Y" }}</div>
+                          {% endif %}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
               {% endif %}
             </li>
           {% endfor %}
